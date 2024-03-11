@@ -1,4 +1,4 @@
-implementación del ejercicio #3 de la tarea #7 de la materia CI5651-Diseño de Algoritmos I
+Implementación del ejercicio #3 de la tarea #7 de la materia CI5651-Diseño de Algoritmos I
 
 Considere una cadena de caracteres S, de longitud n. Se desea hallar la
 subcadena T de S más grande, tal que:
