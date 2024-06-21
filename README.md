@@ -1,12 +1,15 @@
-Implementación del ejercicio #3 de la tarea #7 de la materia CI5651-Diseño de Algoritmos I
+# A string problem with KMP algorithm
 
-Considere una cadena de caracteres S, de longitud n. Se desea hallar la
-subcadena T de S más grande, tal que:
-• T sea prefijo de S (la cadena S empieza con T)
-• T sea sufijo de S (la cadena S termina con T)
-• T != S
-Considere los siguientes ejemplos:
-• Para la cadena ABRACADABRA, la respuesta sería ABRA.
-• Para la cadena AREPERA, la respuesta sería A.
-• Para la cadena ALGORITMO, la respuesta sería λ (la cadena vacía).
-Diseñe un algoritmo que pueda responder a esta consulta usando tiempo y memoria O(n).
+## Problem:
+
+Consider a character string S, of length n. You want to find the largest substring T of S, such that:
+- `$T$` be prefix of `$S$` (string `$S$` starts with `$T$`).
+- `$T$` be suffixed to `$S$` (string `$S$` ends with `$T$`).
+- `$T != S$`
+
+Consider the following examples:
+- For the chain ```ABRACADABRA```, the answer would be ```ABRA```.
+- For the chain ```AREPERA```, the answer would be ```A```.
+- For the chain ```ALGORITMO```, the answer would be ```λ``` (empty string).
+
+Design an algorithm that can answer this query using `$O(n)$` time and memory.
