@@ -4,8 +4,8 @@
 
 Consider a character string S, of length n. You want to find the largest substring T of S, such that:
 - $`T`$ be prefix of $`S`$ (string $`S`$ starts with $`T`$).
-- $`T`$ be suffixed to `$S$` (string $`S`$ ends with $`T`$).
-- $`T != S`$
+- $`T`$ be suffixed to $`S`$ (string $`S`$ ends with $`T`$).
+- $`T \neq S`$
 
 Consider the following examples:
 - For the chain ```ABRACADABRA```, the answer would be ```ABRA```.
